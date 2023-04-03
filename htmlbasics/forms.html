@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form example</title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form action="any_backend_code">
+    <div>
+      <label for="st_name">Student name : </label>
+     <input id ="st_name" type="text" name = "st_name" placeholder="Enter your name">
+    </div>
+    <br>
+    <div>
+    <label for="st_age"> Student age :</label>
+    <input id ="st_age" type ="number" name ="st_age" placeholder="Enter your age">
+      </div>
+      <br>
+      <br>
+      <div>
+      <label for="st_email">Email : </label>
+       <input id ="st_email" type="email" name = "st_email" placeholder="Enter your email">
+      </div>
+      <br>
+      <div>
+    Are you 18 years old : <input type="checkbox" name ="st_eligibility"> 
+      </div>
+      <br>
+      <div>
+        Gender : Male <input type="radio" name="st_gender">
+                Female <input type="radio" name="st_gender">
+                Others <input type="radio" name = "st_gender">
+      </div>
+      <br>
+      <div>
+        Data of Birth: <input type="date" name ="st_dob">
+      </div>
+      <br>
+    Password : <input type="password" name="st."password placeholder="Enter your password">
+    <br>
+    <br>
+    <div>
+      Education description :<br> <textarea name="st_edu_desc"  cols="60" rows="5"></textarea>
+      </div>
+      <div>
+        Qualification: 
+        <select name="st_qualification" id="">
+        <option value="Graduate">Graduate</option>
+        <option value="Undergraduate">Undergraduate</option>
+        <option value="12+">12+</option>
+        <option value="10+">10+</option>
+      </select>
+      </div>
+      <br>
+      <div>
+        <form action=""></form>
+        <input type="Submit" value="Submit form">
+        <input type="Reset" value="Reset form">
+      </div>
+    </form>
+</body>
+</html>
